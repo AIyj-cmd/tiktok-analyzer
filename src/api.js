@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // TikHub 授权令牌
-const BEARER_TOKEN = "Bearer w7w7TUNdzmR2ryAT5le9oH4w5wJQjIb56boihG3KmXVGyU0Sf/1Xg0frPg==";
+const BEARER_TOKEN = "填入API";
 
 /**
  * 从 TikTok URL 中提取 unique_id
