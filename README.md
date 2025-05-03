@@ -28,6 +28,7 @@
 - **API通信**：Fetch API
 - **存储**：LocalStorage (客户端持久化存储)
 - **认证**：JWT (JSON Web Tokens)
+- **后端**：Node.js
 
 ## 快速开始
 
@@ -53,7 +54,13 @@ npm install
 yarn install
 ```
 
-3. 启动开发服务器
+3. 启动后端API服务器
+
+```bash
+node server.js
+```
+
+4. 启动前端开发服务器（在新的终端窗口）
 
 ```bash
 npm start
@@ -61,7 +68,7 @@ npm start
 yarn start
 ```
 
-4. 访问应用
+5. 访问应用
 
 打开浏览器访问 [http://localhost:3000](http://localhost:3000)
 
@@ -93,8 +100,6 @@ yarn start
 3. 您可以编辑或删除自己的留言
 
 ## 项目结构
-
-```
 tiktok-analyzer/
 ├── public/                  # 静态资源
 └── src/                     # 源代码
@@ -181,3 +186,4 @@ const data = await fetchUserData(uniqueId);
 
 - 项目负责人：[您的名字](mailto:your.email@example.com)
 - 项目主页：[GitHub仓库地址](https://github.com/yourusername/tiktok-analyzer) 
+```
